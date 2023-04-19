@@ -10,7 +10,7 @@ DHT_PIN = 4
 BLYNK_AUTH = 's3QKghrvFchp7jAeHGbHo5C21CltG9BS'
 
 # Initialize Blynk
-blynk = BlynkLib.Blynk(BLYNK_AUTH_TOKEN)
+blynk = BlynkLib.Blynk(BLYNK_AUTH)
 
 # Create BlynkTimer Instance
 timer = BlynkTimer()
